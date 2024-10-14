@@ -1,5 +1,3 @@
-<!-- @format -->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,29 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DranzR - Job Search, Recruitment, Job Vacancies</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   </head>
   <body>
     <header>
       <nav>
-        <div class="logo"><img src="icon.jpg" alt="internet isseu" width="300" height="130">  </img></div>
-        
-     
-        <ul>
-          <li  class="hover"><a href="jobs.html">Jobs</a></li>
-          <li class="hover"><a href="recruiters.html">Recruiters</a></li>
-          <li class="hover"><a href="companies.html">Companies</a></li>
-          <li class="hover"><a href="services.html">Services</a></li>
-        </ul>
-      
-        <div class="auth-buttons">
-          <a href="login.html">
-          <button class="login">Login</button></a>
-          <a href="register.html">
-          <button class="register">Register</button></a>
+        <div class="nav-container">
+          <div class="logo">
+            <img src="images/icon.png" alt="DranzR Logo" width="150" height="65">
+          </div>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+            <li><a href="recruiters.html">Recruiters</a></li>
+            <li><a href="companies.html">Companies</a></li>
+            <li><a href="services.html">Services</a></li>
+          </ul>
+          <div class="nav-buttons">
+            <a href="login.html" class="btn login">Login</a>
+            <a href="register.html" class="btn register">Register</a>
+            <a href="resume-builder.html" class="btn resume-builder">Build Your Resume</a>
+          </div>
+          <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </div>
         </div>
-        <a href="resume-builder.html">
-         <button style="border-radius: 15px;font-size: 15px;" class="resume-builder">Build Your Resume</button></a
-        >
       </nav>
     </header>
 
@@ -37,16 +37,11 @@
       <section class="hero">
         <h1>Find Your Dream Job Now</h1>
         <div class="search-bar">
-          <input
-            type="text"
-            placeholder="Enter skills / designations / companies"
-          />
+          <input type="text" placeholder="Enter skills / designations / companies" />
           <input type="text" placeholder="Enter location" />
           <button>Search</button>
         </div>
-        <a href="resume-builder.html">
-          <button class="resume-builder">Build Your Resume</button></a
-        >
+        <a href="resume-builder.html" class="btn resume-builder">Build Your Resume</a>
       </section>
 
       <section class="job-categories">
@@ -64,22 +59,30 @@
       <section class="featured-companies">
         <h2>Featured Companies</h2>
         <div class="company-grid">
-          <div class="company">
-            <img src="https://m.economictimes.com/thumb/msid-73190690,width-1200,height-900,resizemode-4,imgsize-179228/infosys.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 1200px; height: 263px; margin: 0px; width: 351px;" alt="Infosys Q3 Results Highights: What drove Infosys' Street-beating show in  Dec quarter? Key takeaways - The Economic Times" jsname="kn3ccd" aria-hidden="false">
+          <div class="company-card">
+            <img src="https://m.economictimes.com/thumb/msid-73190690,width-1200,height-900,resizemode-4,imgsize-179228/infosys.jpg" alt="Infosys">
+            <h3>Infosys</h3>
+            <p>Global leader in next-generation digital services and consulting.</p>
           </div>
-          <div class="company">
-            <img src="https://wepro-solutions.com/wp-content/uploads/2022/05/wepro-office2-1-1024x614.png" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 1024px; height: 250px; margin: 0px; width: 350px;" alt="Front Page - WePro Solutions" jsname="kn3ccd" aria-hidden="false">
-          </div> 
-          <div class="company">
-            <img src="https://content.jdmagicbox.com/comp/kolkata/e3/033pxx33.xx33.180104223405.w6e3/catalogue/ibm-bidhan-nagar-kolkata-software-companies-mxs3uwp5oh.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 606px; height: 250px; margin: 0px; width: 251px;" alt="IBM in Bidhan Nagar Ck Market, Kolkata - Best Software Companies in Kolkata  - Justdial" jsname="kn3ccd" aria-hidden="false">
-          </div>        
-          <div class="company">
-            <img src="https://www.shutterstock.com/image-illustration/seattle-usa-april-5-2023-600nw-2286327737.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 600px; height: 219px; margin: 0px; width: 351px;" alt="12,080 Amazon Company Images, Stock Photos, 3D objects, &amp; Vectors |  Shutterstock" jsname="kn3ccd" aria-hidden="false">
+          <div class="company-card">
+            <img src="https://wepro-solutions.com/wp-content/uploads/2022/05/wepro-office2-1-1024x614.png" alt="WePro Solutions">
+            <h3>WePro Solutions</h3>
+            <p>Innovative IT solutions for businesses of all sizes.</p>
+          </div>
+          <div class="company-card">
+            <img src="https://content.jdmagicbox.com/comp/kolkata/e3/033pxx33.xx33.180104223405.w6e3/catalogue/ibm-bidhan-nagar-kolkata-software-companies-mxs3uwp5oh.jpg" alt="IBM">
+            <h3>IBM</h3>
+            <p>Pioneering technology solutions for over a century.</p>
+          </div>
+          <div class="company-card">
+            <img src="https://www.shutterstock.com/image-illustration/seattle-usa-april-5-2023-600nw-2286327737.jpg" alt="Amazon">
+            <h3>Amazon</h3>
+            <p>Leading e-commerce and cloud computing company.</p>
           </div>
         </div>
       </section>
 
-      <section class="job-listings">
+      <!-- <section class="job-listings">
         <h2>Recent Job Listings</h2>
         <div class="job-list">
           <div class="job-card">
@@ -98,7 +101,7 @@
             <p>2-4 years experience</p>
           </div>
         </div>
-      </section>
+      </section> -->
     </main>
 
     <footer>
@@ -112,15 +115,15 @@
           </ul>
         </div>
         <div class="footer-section">
-          <h4>Employers</h4>
+          <h4>Follow Us</h4>
           <ul>
-            <li><a href="#">Post a Job</a></li>
-            <li><a href="#">Access Database</a></li>
-            <li><a href="#">Recruitment Solutions</a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+            <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
           </ul>
         </div>
         <div class="footer-section">
-          <h4>Naukri Clone</h4>
+          <h4>DranzR</h4>
           <ul>
             <li><a href="about.html">About Us</a></li>
             <li><a href="contact.html">Contact Us</a></li>
@@ -129,9 +132,10 @@
         </div>
       </div>
       <div class="copyright">
-        &copy; 2024 Naukri Clone. All rights reserved.
+        &copy; 2024 DranzR. All rights reserved.
       </div>
     </footer>
+    <script src="navbar.js"></script>
   </body>
 </html>
 
