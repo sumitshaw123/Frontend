@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - DranzR</title>
+    <link rel="stylesheet" href="login-register.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-container">
+          <div class="logo">
+            <img src="images/icon.png" alt="DranzR Logo" width="150" height="65">
+          </div>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+            <li><a href="recruiters.html">Recruiters</a></li>
+            <li><a href="companies.html">Companies</a></li>
+            <li><a href="services.html">Services</a></li>
+          </ul>
+          <div class="nav-buttons">
+            <a href="login.html" class="btn login">Login</a>
+            <a href="register.html" class="btn register">Register</a>
+            <a href="resume-builder.html" class="btn resume-builder">Build Your Resume</a>
+          </div>
+          <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    
+    <main class="auth-page register-page">
+        <div class="auth-container">
+            <h1>Create Your Account</h1>
+            <p>Join DranzR and start your career journey</p>
+            <form class="auth-form">
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+                </div>
+                <button type="submit" class="auth-submit">Create Account</button>
+            </form>
+            <div class="auth-divider">
+                <span>or</span>
+            </div>
+            <div class="social-auth">
+                <button class="social-auth-btn google">
+                    <img src="/placeholder.svg?height=20&width=20" alt="Google logo">
+                    Sign up with Google
+                </button>
+                <button class="social-auth-btn linkedin">
+                    <img src="/placeholder.svg?height=20&width=20" alt="LinkedIn logo">
+                    Sign up with LinkedIn
+                </button>
+            </div>
+            <p class="auth-switch">
+                Already have an account? <a href="login.html">Log in</a>
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Job Seekers</h4>
+                <ul>
+                    <li><a href="#">Search Jobs</a></li>
+                    <li><a href="#">Create Job Alert</a></li>
+                    <li><a href="career-advice.html">Career Advice</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <ul>
+                  <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                  <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                </ul>
+              </div>
+            <div class="footer-section">
+                <h4>DranzR</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2024 DranzR. All rights reserved.
+        </div>
+    </footer>
+    <script src="navbar.js"></script>
+</body>
+</html>

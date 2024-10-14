@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs - DranzR</title>
+    <link rel="stylesheet" href="jobs.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-container">
+          <div class="logo">
+            <img src="images/icon.png" alt="DranzR Logo" width="150" height="65">
+          </div>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+            <li><a href="recruiters.html">Recruiters</a></li>
+            <li><a href="companies.html">Companies</a></li>
+            <li><a href="services.html">Services</a></li>
+          </ul>
+          <div class="nav-buttons">
+            <a href="login.html" class="btn login">Login</a>
+            <a href="register.html" class="btn register">Register</a>
+            <a href="resume-builder.html" class="btn resume-builder">Build Your Resume</a>
+          </div>
+          <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="jobs-page">
+        <section class="hero">
+            <h1>Find Your Dream Job</h1>
+            <p>Explore thousands of job opportunities across various industries</p>
+        </section>
+
+        <section class="job-search">
+            <form class="search-form">
+                <input type="text" placeholder="Job title, keywords, or company" class="search-input">
+                <input type="text" placeholder="City, state, or zip code" class="search-input">
+                <select class="search-select">
+                    <option value="">All Job Types</option>
+                    <option value="full-time">Full-time</option>
+                    <option value="part-time">Part-time</option>
+                    <option value="contract">Contract</option>
+                    <option value="internship">Internship</option>
+                </select>
+                <button type="submit" class="search-button">Search Jobs</button>
+            </form>
+        </section>
+
+        <section class="featured-jobs">
+            <h2>Featured Jobs</h2>
+            <div class="job-grid">
+                <div class="job-card">
+                    <div class="job-card-header">
+                        <img src="/placeholder.svg?height=60&width=60" alt="Tech Innovators Logo" class="company-logo">
+                        <div>
+                            <h3>Senior Software Engineer</h3>
+                            <p class="company-name">Tech Innovators</p>
+                        </div>
+                    </div>
+                    <div class="job-card-body">
+                        <p class="job-location">San Francisco, CA</p>
+                        <p class="job-type">Full-time</p>
+                        <p class="job-salary">$120,000 - $160,000 per year</p>
+                        <p class="job-description">We're seeking a talented Senior Software Engineer to join our innovative team...</p>
+                    </div>
+                    <div class="job-card-footer">
+                        <a href="#" class="apply-button">Apply Now</a>
+                    </div>
+                </div>
+                <div class="job-card">
+                    <div class="job-card-header">
+                        <img src="/placeholder.svg?height=60&width=60" alt="Green Energy Solutions Logo" class="company-logo">
+                        <div>
+                            <h3>Environmental Scientist</h3>
+                            <p class="company-name">Green Energy Solutions</p>
+                        </div>
+                    </div>
+                    <div class="job-card-body">
+                        <p class="job-location">Portland, OR</p>
+                        <p class="job-type">Full-time</p>
+                        <p class="job-salary">$80,000 - $100,000 per year</p>
+                        <p class="job-description">Join our team of environmental experts and contribute to sustainable energy projects...</p>
+                    </div>
+                    <div class="job-card-footer">
+                        <a href="#" class="apply-button">Apply Now</a>
+                    </div>
+                </div>
+                <div class="job-card">
+                    <div class="job-card-header">
+                        <img src="/placeholder.svg?height=60&width=60" alt="Global Finance Corp Logo" class="company-logo">
+                        <div>
+                            <h3>Financial Analyst</h3>
+                            <p class="company-name">Global Finance Corp</p>
+                        </div>
+                    </div>
+                    <div class="job-card-body">
+                        <p class="job-location">New York, NY</p>
+                        <p class="job-type">Full-time</p>
+                        <p class="job-salary">$90,000 - $120,000 per year</p>
+                        <p class="job-description">We're looking for a skilled Financial Analyst to join our team and provide valuable insights...</p>
+                    </div>
+                    <div class="job-card-footer">
+                        <a href="#" class="apply-button">Apply Now</a>
+                    </div>
+                </div>
+                <div class="job-card">
+                    <div class="job-card-header">
+                        <img src="/placeholder.svg?height=60&width=60" alt="HealthTech Innovations Logo" class="company-logo">
+                        <div>
+                            <h3>UX/UI Designer</h3>
+                            <p class="company-name">HealthTech Innovations</p>
+                        </div>
+                    </div>
+                    <div class="job-card-body">
+                        <p class="job-location">Boston, MA</p>
+                        <p class="job-type">Full-time</p>
+                        <p class="job-salary">$85,000 - $110,000 per year</p>
+                        <p class="job-description">Join our creative team and design intuitive user experiences for healthcare applications...</p>
+                    </div>
+                    <div class="job-card-footer">
+                        <a href="#" class="apply-button">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="view-more-container">
+                <a href="#" class="view-more-button">View More Jobs</a>
+            </div>
+        </section>
+
+        <section class="job-categories">
+            <h2>Browse Jobs by Category</h2>
+            <div class="category-grid">
+                <a href="#" class="category-card">
+                    <img src="/placeholder.svg?height=40&width=40" alt="Technology Icon" class="category-icon">
+                    <h3>Technology</h3>
+                    <p>1,234 jobs</p>
+                </a>
+                <a href="#" class="category-card">
+                    <img src="/placeholder.svg?height=40&width=40" alt="Healthcare Icon" class="category-icon">
+                    <h3>Healthcare</h3>
+                    <p>987 jobs</p>
+                </a>
+                <a href="#" class="category-card">
+                    <img src="/placeholder.svg?height=40&width=40" alt="Finance Icon" class="category-icon">
+                    <h3>Finance</h3>
+                    <p>876 jobs</p>
+                </a>
+                <a href="#" class="category-card">
+                    <img src="/placeholder.svg?height=40&width=40" alt="Education Icon" class="category-icon">
+                    <h3>Education</h3>
+                    <p>765 jobs</p>
+                </a>
+                <a href="#" class="category-card">
+                    <img src="/placeholder.svg?height=40&width=40" alt="Marketing Icon" class="category-icon">
+                    <h3>Marketing</h3>
+                    <p>654 jobs</p>
+                </a>
+                <a href="#" class="category-card">
+                    <img src="/placeholder.svg?height=40&width=40" alt="Engineering Icon" class="category-icon">
+                    <h3>Engineering</h3>
+                    <p>543 jobs</p>
+                </a>
+            </div>
+        </section>
+
+        <section class="job-seeker-tools">
+            <h2>Job Seeker Tools</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <img src="/placeholder.svg?height=80&width=80" alt="Resume Builder Icon" class="tool-icon">
+                    <h3>Resume Builder</h3>
+                    <p>Create a professional resume that stands out</p>
+                    <a href="#" class="tool-link">Build Your Resume</a>
+                </div>
+                <div class="tool-card">
+                    <img src="/placeholder.svg?height=80&width=80" alt="Career Advice Icon" class="tool-icon">
+                    <h3>Career Advice</h3>
+                    <p>Get expert tips and guidance for your job search</p>
+                    <a href="#" class="tool-link">Read Articles</a>
+                </div>
+                <div class="tool-card">
+                    <img src="/placeholder.svg?height=80&width=80" alt="Job Alert Icon" class="tool-icon">
+                    <h3>Job Alert</h3>
+                    <p>Being ready to grab your opportunities</p>
+                    <a href="#" class="tool-link">Calculate Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-companies">
+            <h2>Featured Companies Hiring Now</h2>
+            <div class="company-slider">
+                <div class="company-card">
+                    <img src="/placeholder.svg?height=100&width=100" alt="Tech Innovators Logo" class="company-logo">
+                    <h3>Tech Innovators</h3>
+                    <p>15 open positions</p>
+                    <a href="#" class="view-jobs">View Jobs</a>
+                </div>
+                <div class="company-card">
+                    <img src="/placeholder.svg?height=100&width=100" alt="Green Energy Solutions Logo" class="company-logo">
+                    <h3>Green Energy Solutions</h3>
+                    <p>8 open positions</p>
+                    <a href="#" class="view-jobs">View Jobs</a>
+                </div>
+                <div class="company-card">
+                    <img src="/placeholder.svg?height=100&width=100" alt="Global Finance Corp Logo" class="company-logo">
+                    <h3>Global Finance Corp</h3>
+                    <p>12 open positions</p>
+                    <a href="#" class="view-jobs">View Jobs</a>
+                </div>
+                <div class="company-card">
+                    <img src="/placeholder.svg?height=100&width=100" alt="HealthTech Innovations Logo" class="company-logo">
+                    <h3>HealthTech Innovations</h3>
+                    <p>10 open positions</p>
+                    <a href="#" class="view-jobs">View Jobs</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="job-seeker-cta">
+            <h2>Take the Next Step in Your Career</h2>
+            <p>Create a free account to apply for jobs, save your favorite listings, and get personalized job recommendations.</p>
+            <a href="#" class="cta-button">Create Your Account</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Job Seekers</h4>
+                <ul>
+                    <li><a href="#">Search Jobs</a></li>
+                    <li><a href="#">Create Job Alert</a></li>
+                    <li><a href="career-advice.html">Career Advice</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <ul>
+                  <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                  <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                </ul>
+              </div>
+            <div class="footer-section">
+                <h4>DranzR</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2024 DranzR. All rights reserved.
+        </div>
+    </footer>
+    <script src="navbar.js"></script>
+</body>
+</html>
